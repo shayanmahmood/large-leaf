@@ -1,0 +1,72 @@
+body{
+    background-image: url("../images/KXW4R2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    color: aqua;
+    font-size: 60px;
+ }
+ .heading:hover{
+    color: aquamarine;
+    text-decoration: underline;
+ }
+ .time{
+     text-align: center;
+     color: blue;
+     margin-left:150px;
+     font-size: 40px;
+     padding: 30px;
+border: red;
+opacity: 0.8;
+
+}
+.time:hover{
+    opacity: 1;
+}
+
+td{
+    background-color: pink;
+}
+td:hover{
+    color: pink;
+    background-color: blue;
+}
+th{
+    background-color: yellow;
+    font-size: 45px;
+    padding: 30px;
+    color: pink;
+}
+th:hover{
+color: yellow;
+background-color: pink;
+}
+.btn1 {
+    background: pink;
+  
+    border-radius: 28px;
+    text-shadow: 0px 0px 0px pink;
+    -webkit-box-shadow: 4px 3px 3px pink;
+    -moz-box-shadow: 4px 3px 3px pink;
+    box-shadow: 4px 3px 3px black;
+    font-family: Georgia;
+    color:yellow;
+    font-size: 29px;
+    padding: 10px 20px 10px 20px;
+    border: solid pink 2px;
+    text-decoration: none;
+  }
+  
+  .btn1:hover {
+    background: pink;
+    background-image: -webkit-linear-gradient(top, pink, yellow);
+    background-image: -moz-linear-gradient(top, pink, yellow);
+    background-image: -ms-linear-gradient(top, pink, yellow);
+    background-image: -o-linear-gradient(top, pink, yellow);
+    background-image: linear-gradient(to bottom, pink, yellow);
+    text-decoration: none;
+    color: red;
+  }

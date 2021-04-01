@@ -1,0 +1,46 @@
+body{
+    background-image: url("../images/z2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.heading{
+    text-align: center;
+    color: aqua;
+    font-size: 60px;
+ }
+ .heading:hover{
+    color: aquamarine;
+    text-decoration: underline;
+ }
+img{
+    padding: 4px;
+}
+.btn1 {
+    background: pink;
+  
+    border-radius: 28px;
+    text-shadow: 0px 0px 0px pink;
+    -webkit-box-shadow: 4px 3px 3px pink;
+    -moz-box-shadow: 4px 3px 3px pink;
+    box-shadow: 4px 3px 3px black;
+    font-family: Georgia;
+    color:yellow;
+    font-size: 29px;
+    padding: 10px 20px 10px 20px;
+    border: solid pink 2px;
+    text-decoration: none;
+  }
+  
+  .btn1:hover {
+    background: pink;
+    background-image: -webkit-linear-gradient(top, pink, yellow);
+    background-image: -moz-linear-gradient(top, pink, yellow);
+    background-image: -ms-linear-gradient(top, pink, yellow);
+    background-image: -o-linear-gradient(top, pink, yellow);
+    background-image: linear-gradient(to bottom, pink, yellow);
+    text-decoration: none;
+    color: red;
+  }
+     

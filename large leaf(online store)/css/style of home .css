@@ -1,0 +1,288 @@
+
+ /* 
+body{
+
+  
+    background-image: linear-gradient(
+        to right bottom ,
+        rgba(126, 213, 111, 0.8),
+        rgba(40, 180, 131, 0.8)),
+
+background-image: linear-gradient(
+rgba(126, 213, 111, 0.8),rgba(40, 180, 131, 0.8)  
+);
+ background-image: 
+        url("../images/h1.jpg");
+
+        background-size: cover;
+        background-position: top;
+}
+*/
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+rgb(135,231,235)
+rgb(0,64,255)
+
+
+rgba(0, 255, 64, 0.8)
+  to right bottom,
+
+  #7fff94
+#7fff94
+rgb(127,255,148)
+
+rgb(255,192,208)
+
+
+
+rgb(255,255,0)
+
+
+
+rgb(255,192,203)
+*/
+
+
+
+   
+    
+    .header{
+    height: 900px;
+      background-image: linear-gradient(
+     to right bottom,
+     
+   rgba(255, 255, 0, 0.8),
+   rgba(255, 192, 203, 0.8)
+   ),
+   url("../images/h1.jpg");
+   background-size: cover;
+   background-position: top;
+    }
+.logo{
+  text-align: center;
+}
+.MAIN{
+
+  font-family: 'Playfair Display', serif;
+  font-size: 90px;
+  font-weight: bold;
+  font-style: oblique;
+
+}
+span{
+  font-family: 'Great Vibes', cursive;
+}
+.m{
+  font-size: 40px;
+}
+
+.btn {
+  background: pink;
+  background-image: -webkit-linear-gradient(top, pink, pink);
+  background-image: -moz-linear-gradient(top, pink, pink);
+  background-image: -ms-linear-gradient(top, pink, pink);
+  background-image: -o-linear-gradient(top, pink, pink);
+  background-image: linear-gradient(to bottom, pink, pink);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 5px 4px 3px pink;
+  -webkit-box-shadow: 4px 4px 3px black;
+  -moz-box-shadow: 4px 4px 3px black;
+  box-shadow: 4px 4px 3px black;
+  font-family: Arial;
+  color: yellow;
+  font-size: 32px;
+  padding: 10px 20px 10px 20px;
+  border: solid pink 2px;
+  text-decoration: none;
+  background-image: url("../logo/shopping-cart-32.ico");
+  background-repeat: no-repeat;
+  width: 550px;
+height: 100px;
+margin-left: 500px;
+background-position:top;
+border-radius: 
+300px;
+}
+
+.btn:hover {
+  text-shadow: none;
+  border: yellow;
+  color: pink;
+  background: yellow;
+  background-image: -webkit-linear-gradient(top, yellow, yellow);
+  background-image: -moz-linear-gradient(top, yellow, yellow);
+  background-image: -ms-linear-gradient(top, yellow, yellow);
+  background-image: -o-linear-gradient(top, yellow, yellow);
+  background-image: linear-gradient(to bottom, yellow, yellow);
+  text-decoration: none;
+  background-image: url("../logo/shopping-cart-32.ico");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+/*rgb(206,160,221)*/
+nav{
+  height: 800px;
+  background-image: linear-gradient(
+    to right bottom,
+    
+  rgba(255, 255, 0, 0.8),
+  rgba(206, 160, 221, 0.8)
+  ),
+  url("../images/car.jpg")
+  ;
+  background-size: cover;
+
+}
+.he {
+  font-size: 72px;
+  background: -webkit-linear-gradient(aquamarine,pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.p{
+  font-size: 60px;
+  color: blueviolet;
+  font-style: oblique;
+}
+.btn1 {
+  background: pink;
+
+  border-radius: 28px;
+  text-shadow: 0px 0px 0px pink;
+  -webkit-box-shadow: 4px 3px 3px pink;
+  -moz-box-shadow: 4px 3px 3px pink;
+  box-shadow: 4px 3px 3px black;
+  font-family: Georgia;
+  color:yellow;
+  font-size: 29px;
+  padding: 10px 20px 10px 20px;
+  border: solid pink 2px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: pink;
+  background-image: -webkit-linear-gradient(top, pink, yellow);
+  background-image: -moz-linear-gradient(top, pink, yellow);
+  background-image: -ms-linear-gradient(top, pink, yellow);
+  background-image: -o-linear-gradient(top, pink, yellow);
+  background-image: linear-gradient(to bottom, pink, yellow);
+  text-decoration: none;
+  color: red;
+}
+.footer{
+  height: 900px;
+  height: 800px;
+  background-image: linear-gradient(
+    to right bottom,
+    /*rgb(0,64,255)*/
+  rgba(255, 255, 0, 0.8),
+  rgba(0, 64, 255, 0.8)
+  ),
+  url("../images/ar1.jpg")
+  ;
+  background-size: cover;
+}
+.ll{
+  font-size: 72px;
+  background: -webkit-linear-gradient(orange,yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.p1{
+  font-size: 60px;
+  color:deeppink;
+  font-style: oblique; 
+}
+/*rgb(255,192,219)*/
+.copy{
+  height: 900px;
+  height: 800px;
+  background-image: linear-gradient(
+    to right bottom,
+    /*rgb(0,64,255)
+    rgb(225,255,47)
+    
+    rgb(121,255,47)*/
+  rgba(121, 255, 47, 0.8),
+  rgba(255, 192, 203, 0.8)
+  ),
+  url("../images/2.jpg")
+  ;
+  background-size: cover;
+
+}
+.oo{
+  font-size: 72px;
+  background: -webkit-linear-gradient(blue,pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.o1{
+  font-size: 60px;
+  color: blueviolet;
+  font-style: oblique;
+}
+.time{
+  height: 900px;
+  height: 400px;
+  background-image: linear-gradient(
+    to right bottom,
+    /*rgb(0,64,255)
+    rgb(225,255,47)
+    
+    rgb(121,255,47
+    
+    #0040ff
+#0040ff
+rgb(0,64,255))
+
+  rgba(255, 192, 203, 0.8)
+  
+  #7fffb4
+#7fffb4
+rgb(127,255,180)*/
+  rgba(255, 192, 203, 0.8),
+  rgba(127, 255, 180, 0.8)
+  ),
+  url("../images/v.jpg")
+  ;
+  background-size: cover; 
+}
+.cop{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: oblique;
+
+}
+.c{
+  margin-left: 300px;
+}
+.c:hover{
+  color: white;
+}
+.d{
+  float: right; opacity:0.5; 
+}
+.d:hover{
+  opacity: 1;
+}
+.d1{
+  float: left;opacity: 0.5;
+}
+.d1:hover{
+  opacity: 1;
+}
+.d2{
+  float: right;opacity: 0.7;
+}
+.d2:hover{
+  opacity: 1;
+}
